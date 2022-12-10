@@ -37,3 +37,41 @@ body {
     color: lightgreen;
 }
 
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+footer > h1 {
+    width: 30%;
+    margin: 5%;
+    font-size: 90%;
+}
+
+footer > div {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p {
+    width: 30%;
+    margin: 5%;
+}
+
+#logoModal{
+    background-color: red;
+}
+
+#lgTwitter{
+    width: 10%;
+}
