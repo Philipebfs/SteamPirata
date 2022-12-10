@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Mono&display=swap');
+
+* {
+    font: normal Verdana, Arial, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(48, 44, 44);
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(222, 18%, 11%);
+    color: white;
+    width: 100%;
+    font-family: 'Kaushan Script', Arial;
+    background: linear-gradient(90deg, rgba(2,0,28,1) 0%, rgba(69,69,83,1) 57%, rgba(69,69,83,1) 100%);
+
+}
+
+#nave {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 50%;
+    color: lightgreen;
+}
+
+#logo {
+    width: 50%;
+    margin: 1%;
+    color: lightgreen;
+}
+
